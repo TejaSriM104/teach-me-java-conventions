@@ -1,11 +1,11 @@
 package powerpackage;
 
-public class powerfinder {
-    public static int OF(int xyz, int pqr) {
-        int p = 1;
-        for (int i = 0; i<pqr; i++) {
-            p *= xyz;
+public class PowerFinder {
+    public static int power(int base, int exponent) {
+        int power = base;
+        for (int i = 0; i<exponent-1; i++) {
+            power*=base;
         }
-        return p;
+        return power;
     }
 }
