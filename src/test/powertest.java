@@ -3,7 +3,7 @@ package powerpackage;
 
 import org.junit.Test;
 
-public class powertest {
+public class PowerTest {
     @Test
     public void oneRaisedToOneIsOne() {
         assert PowerFinder.power(1,1) == 1;
